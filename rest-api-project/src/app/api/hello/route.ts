@@ -13,7 +13,7 @@ export async function GET(request: Request) {
       statusText: 'Too Many Requests',
       headers: {
         'Access-Control-Allow-Origin': '*',
-        'Content-Type'
+        'Content-Type': 'text/plain',
       },
     });
   }
